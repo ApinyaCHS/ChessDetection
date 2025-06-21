@@ -1,4 +1,5 @@
 # Chess tracking systems
+This project is part of the course Digital Image Processing (2110651), Chulalongkorn University, Thailand, 2024.
 ## Overview
 - The aim of this project is to create AI model applications capable of generating chess data in PGN format.
 
@@ -26,12 +27,19 @@ Currently, there are electronic chess boards that can connect to computers or mo
 3. We applied **Perspective Correction** and **Grid Point Detection** techniques to map YOLO predictions onto the correct positions on the chessboard.
 4. We then compared each time step with the previous one to track piece movements.
 5. Finally, we developed a logic-based system to record the chess moves accurately.
-<img width="535" alt="ภาพถ่ายหน้าจอ 2568-06-21 เวลา 22 28 34" src="https://github.com/user-attachments/assets/13314f1c-cd4b-4ac9-9291-1dcd26463b74" />
+<img src="https://github.com/ApinyaCHS/ChessDetection/raw/main/overview-system.png" width="535" alt="Overview of this system" />
 
+## Hand Removal
+<img src="https://github.com/ApinyaCHS/ChessDetection/raw/main/Hand-remove.png" width="535" alt="Hand-removal" />
+
+## Chess-piece-detection.png
+<img src="https://github.com/ApinyaCHS/ChessDetection/raw/main/Chess-piece-detection.png" width="535" alt="Chess-piece-detection.png" />
    
 
 ## 📸 Correcting Perspective Distortion and Detecting Chessboard Grids from Images
 When using chessboard images in automated systems—such as move tracking or digital game recording—it's essential to transform the view to a top-down perspective and accurately detect grid intersection points on the board.
+<img src="https://github.com/ApinyaCHS/ChessDetection/raw/main/WARPs Images & Draws Grids.png" width="535" alt="WARPs Images & Draws Grids.png" />
+
 
 
 ### ✅ Perspective Correction
