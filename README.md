@@ -73,7 +73,7 @@ After obtaining a straightened (warped) image of the chessboard, the next task i
 
 ## Output
 - Predict chess moves in PGN format and save the results to a CSV file.
-- 
+  
 | video_id   | output |
 | -------------       |:-------------:|
 | 2_move.mp4  |	1... Qh4 2. g3 |
