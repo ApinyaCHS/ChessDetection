@@ -22,11 +22,13 @@ Currently, there are electronic chess boards that can connect to computers or mo
 
 ## Method
 1. We divided the video into individual frames.
-2. We selected frames without hand obstructions to identify chess pieces—such as black pawns and white pawns—using YOLOv1 to detect both hands and pieces.
+2. We selected frames without hand obstructions to identify chess pieces—such as black pawns and white pawns—using YOLOv11 to detect both hands and pieces.
 3. We applied **Perspective Correction** and **Grid Point Detection** techniques to map YOLO predictions onto the correct positions on the chessboard.
 4. We then compared each time step with the previous one to track piece movements.
 5. Finally, we developed a logic-based system to record the chess moves accurately.
+<img width="535" alt="ภาพถ่ายหน้าจอ 2568-06-21 เวลา 22 28 34" src="https://github.com/user-attachments/assets/13314f1c-cd4b-4ac9-9291-1dcd26463b74" />
 
+   
 
 ## 📸 Correcting Perspective Distortion and Detecting Chessboard Grids from Images
 When using chessboard images in automated systems—such as move tracking or digital game recording—it's essential to transform the view to a top-down perspective and accurately detect grid intersection points on the board.
@@ -61,6 +63,7 @@ After obtaining a straightened (warped) image of the chessboard, the next task i
 
 ## Output
 - Predict chess moves in PGN format and save the results to a CSV file.
+- 
 | video_id   | output |
 | -------------       |:-------------:|
 | 2_move.mp4  |	1... Qh4 2. g3 |
@@ -82,4 +85,5 @@ After obtaining a straightened (warped) image of the chessboard, the next task i
   8: white-rook
   9: white-bishop
   10: white-knight
-  11: white-king```
+  11: white-king
+```
