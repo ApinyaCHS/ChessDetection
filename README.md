@@ -27,6 +27,7 @@ Currently, there are electronic chess boards that can connect to computers or mo
 3. We applied **Perspective Correction** and **Grid Point Detection** techniques to map YOLO predictions onto the correct positions on the chessboard.
 4. We then compared each time step with the previous one to track piece movements.
 5. Finally, we developed a logic-based system to record the chess moves accurately.
+   
 <img src="https://github.com/ApinyaCHS/ChessDetection/raw/main/overview-system.png" width="535" alt="Overview of this system" />
 
 ## Hand Removal
@@ -38,6 +39,7 @@ Currently, there are electronic chess boards that can connect to computers or mo
 
 ## 📸 Correcting Perspective Distortion and Detecting Chessboard Grids from Images
 When using chessboard images in automated systems—such as move tracking or digital game recording—it's essential to transform the view to a top-down perspective and accurately detect grid intersection points on the board.
+
 <img src="https://github.com/ApinyaCHS/ChessDetection/raw/main/WARPs Images & Draws Grids.png" width="535" alt="WARPs Images & Draws Grids.png" />
 
 
