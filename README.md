@@ -19,6 +19,9 @@ Currently, there are electronic chess boards that can connect to computers or mo
 - Errors during the game, such as collisions, pieces falling, or other corrections, may occur.
 - Illegal moves: Players may make moves that violate chess rules, which can confuse automated tracking and analysis systems.
 - Hand obstructions: Hands or other objects may block the camera’s view of the board, making it difficult to accurately detect piece positions and movements.
+- PGN Formatt
+
+## PGN Formatt
 
 
 ## Method
